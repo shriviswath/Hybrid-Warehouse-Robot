@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+title: >-
+  Design and Development of a Hybrid Ground-Aerial Warehouse Robot with
+  Integrated Robotic Manipulator for Cargo Handling
+message: If you use this work, please cite it as below.
+type: software
+authors:
+  - given-names: Shri Viswath
+    family-names: C K
+    affiliation: >-
+      Department of Electronics and Instrumentation Engineering,
+      SRM Institute of Science and Technology, Kattankulathur
+  - given-names: Rishav
+    family-names: Kamboj
+    affiliation: >-
+      Department of Electronics and Instrumentation Engineering,
+      SRM Institute of Science and Technology, Kattankulathur
+year: 2026
+keywords:
+  - hybrid robot
+  - warehouse automation
+  - UAV
+  - robotic manipulator
+  - ArduPilot
+  - MAVLink
+  - ESP32
+license: MIT

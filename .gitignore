@@ -1,0 +1,54 @@
+# ---- PlatformIO / build ----
+.pio/
+.pioenvs/
+.piolibdeps/
+*.elf
+*.map
+*.bin
+*.o
+*.a
+*.d
+*.sconsign*.dblite
+
+# ---- Editors ----
+.vscode/
+!.vscode/extensions.json
+*.code-workspace
+*.code-workspace.bak
+.idea/
+
+# ---- Arduino ----
+build/
+*.hex
+
+# ---- SolidWorks working files ----
+# Native CAD is not committed; see hardware/README.md
+*.SLDPRT
+*.SLDASM
+*.SLDDRW
+*.sldprt
+*.sldasm
+*.slddrw
+# SolidWorks backups and locks
+~$*
+*.bak
+*.SLDLFP
+*.sldlfp
+
+# ---- Flight controller logs and GCS output ----
+*.tlog
+*.bin.log
+*.BIN
+logs/
+graphs/
+
+# ---- Large media: keep the repo cloneable ----
+# Put demo footage in media/ only after compressing it.
+*.mov
+*.mp4
+!media/demo.mp4
+
+# ---- OS ----
+Thumbs.db
+desktop.ini
+.DS_Store

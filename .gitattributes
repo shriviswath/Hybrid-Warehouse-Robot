@@ -1,0 +1,22 @@
+# Normalise line endings: this repo is edited on Windows and read on Linux.
+* text=auto eol=lf
+
+*.ino   text eol=lf
+*.cpp   text eol=lf
+*.h     text eol=lf
+*.md    text eol=lf
+*.ini   text eol=lf
+
+# Binary: never diff, never convert
+*.png   binary
+*.jpg   binary
+*.pdf   binary
+*.stl   binary
+*.STL   binary
+*.step  binary
+*.STEP  binary
+*.stp   binary
+*.mp4   binary
+
+# Mark firmware as the language GitHub should report, not the HTML inside webui_fly.h
+*.ino linguist-language=C++
